@@ -1,0 +1,10 @@
+.footer-div{
+    position: absolute;
+    top: 100vh;
+    margin-top: 10vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: white;
+}
