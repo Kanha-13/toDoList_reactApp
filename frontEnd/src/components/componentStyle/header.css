@@ -1,0 +1,21 @@
+.header-div{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+}
+.header-div button{
+    background-color: black;
+    border: none;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+}
+.header-div button:hover{
+    background-color: rgb(58, 50, 50);
+    box-shadow: 0 0 3px 2px rgb(48, 42, 42);
+}
