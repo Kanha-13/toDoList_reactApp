@@ -1,0 +1,25 @@
+.mainHeader{
+    background-color: #AF42AE;
+    color: white;
+    text-align: center;
+    height: 50px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+.addHeader{
+    background-color: #BC69AA;
+    color: white;
+    text-align: center;
+    height: 42px;
+    font-size:xx-large ;
+}
+
+.listHeader{
+    background-color: #BC69AA;
+    color: white;
+    text-align: center;
+    height: 42px;
+    font-size:xx-large ;
+}
+

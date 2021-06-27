@@ -1,28 +1,9 @@
-import '../styleSheets/header.css'
-import React from 'react'
-import { Link } from 'react-router-dom'
-const header = () => {
-    const styleText = {
-        textDecoration: "none",
-        width: "50px",
-        color: "black",
-        textAlign: "center",
-        margin: "auto",
-        height: "30px",
-        backgroundColor: "white",
-        fontWeight: "600"
-    }
+import '../css/header.css'
+const Header = ({ title, cls }) => {
     return (
         <>
-            {/* <h3>Header</h3> */}
-            <nav>
-                {/* <p>Its a nav bar</p> */}
-                <div className="nav-container">
-                    <Link to="/" style={styleText}>Home</Link>
-                    <Link to="/about" style={styleText}>About</Link>
-                </div>
-            </nav>
+            <h1 className={cls}>{title} </h1>
         </>
     );
 }
-export default header;
+export default Header;
